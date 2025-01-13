@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: "Lato", serif;
+}
+.fContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+.wrapper{
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row;
+}
+.wrapper img{
+    width: 130px;
+    height: 50px;
+}
+.navigation{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.navigation > li{
+    width: 30%;
+    list-style: none;
+    padding: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navigation li a{
+    color:#fff;
+    text-decoration: none;
+    justify-content: space-between;
+}
+.profile{
+    width: 10%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+.profile span{
+    align-content: center;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+}
+.dropdown-menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+.dropdown-menu a:hover {
+    background-color: #f0f0f0;
+}
+.profile:hover .dropdown-menu {
+    margin-top: 10vh;
+    display: block;
+}
+.profile img{
+    width: 50px;
+    height: 50px;
+}
