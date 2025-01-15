@@ -110,3 +110,65 @@ button #logo_google{
     text-decoration: none;
     margin-right: 15px;
 }
+
+/* Media Queries untuk Responsif */
+@media screen and (max-width: 850px) {
+    .login-container {
+        width: 70%;
+        padding: 15px 20px;
+    }
+
+    .login-container h3 {
+        font-size: 40px;
+    }
+
+    .login-container h5 {
+        font-size: 28px;
+    }
+
+    .login-container label {
+        font-size: 24px;
+    }
+
+    .sso-container button {
+        font-size: 18px;
+    }
+    .login-container .link-container a{
+        font-size: 18px;
+        font-weight: 400;
+        color: #ffff;
+        text-decoration: none;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .login-container {
+        width: 70%;
+        padding: 10px 15px;
+    }
+
+    .login-container h3 {
+        font-size: 24px;
+    }
+
+    .login-container h5 {
+        font-size: 12px;
+    }
+
+    .login-container label {
+        font-size: 16px;
+    }
+
+    .sso-container button {
+        font-size: 14px;
+    }
+
+    .login-container .link-container a{
+        font-size: 14px;
+        font-weight: 400;
+        color: #ffff;
+        text-decoration: none;
+        margin-bottom: 20px;
+    }
+}

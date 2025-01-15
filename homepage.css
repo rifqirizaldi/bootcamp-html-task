@@ -232,3 +232,60 @@ a{
 a:hover{
   color: #fff055;
 }
+
+/* Responsive Design */
+@media screen and (max-width: 850px) {
+  .fContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .navigation {
+    flex-direction: column;
+    align-items: center;
+  }
+  .navigation > li {
+    padding: 10px 0;
+  }
+  .wrapper img {
+    width: 100px;
+    height: auto;
+  }
+  .banner {
+    height: auto;
+    padding: 20px;
+  }
+  .banner_title {
+    font-size: 28px;
+  }
+  .banner_desc {
+    font-size: 14px;
+    max-width: 100%;
+  }
+  .footer_container {
+    flex-direction: column;
+  }
+  .footer_content {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navigation > li {
+    padding: 8px 0;
+    font-size: 14px;
+  }
+  .banner_title {
+    font-size: 24px;
+  }
+  .banner_desc {
+    font-size: 12px;
+  }
+  .banner_btn {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+  .profile img {
+    width: 40px;
+    height: 40px;
+  }
+}
